@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <input type="radio" name = "radio" id = "open">
+    <input type="radio" name = "radio" id = "close" checked>
+    <!-- nav -->
+    <nav>
+      <div class="left-side">
+        <a href=""><h1>SetaXyz</h1></a>
+      </div>
+      <div class="right-side">
+        <div class="nav-link-wrapper"><a href="#home" class = "page-scroll">Home</a></div>
+        <div class="nav-link-wrapper"><a href="#about" class = "page-scroll">About</a></div>
+        <div class="nav-link-wrapper"><a href="#projects" class = "page-scroll">Album</a></div>
+        <div class="nav-link-wrapper"><a href="#contact" class = "page-scroll">Contact</a></div>
+      </div>
+      <label for = "open" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <label for="close" class = "cross">
+        <span></span>
+        <span></span>
+      </label>
+    </nav>
+
+    <!-- home -->
+    <div class="container-home" id = "home">
+      <img src="img/profil.jpg" alt="">
+      <h1>Bayu Arya Seta</h1>
+      <p>Programer | Editor </p>
+    </div>
+
+    <!-- about -->
+    <div class="container-about" id = "about">
+      <h1>About</h1>
+      <hr class="split">
+      <div class="text">
+        <p>Hi Everybody! I Want To Introduce Myself! My Full Name Is Bayu Arya Seta, You Can Call Me Bayu/Seta. I Live In Indramayu. Nice To Meet You All And Welcome To The Profile</p>
+        <p>"Don't depend on others, because even your own shadow can leave you when you're in the dark"</p>
+      </div>
+    </div>
+
+    <!-- projects -->
+    <div class="container-projects" id = "projects">
+      <h1>My Memories</h1>
+      <hr class="split">
+      <div class="cards">
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar1.jpeg" alt="">
+            <p>Fotbar Family 9.2, 11 June 2022</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar2.jpeg" alt="">
+            <p>LDKS SmkN 1 Losarang, 23 July 2022</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar3.jpeg" alt="">
+            <p>Fotbar Perpisahan MtsN 10 Indramayu, 11 June 2022</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar4.jpeg" alt="">
+            <p>Fotbar Project Film Pendek, 15 August 2022</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar5.jpeg" alt="">
+            <p>Fotbar Perpisahan Family 9.2, 11 june 2022</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="img/gambar6.jpeg" alt="">
+            <p>Fotbar Family X - TJKT 1, 17 August 2022</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container-contact" id = "contact">
+      <h1>Contact</h1>
+      <hr class="split">
+
+      <form action="" method = "post">
+
+        <label for="">Name</label>
+        <input type="text" placeholder = "Bayu Arya Seta">
+
+        <label for="">Phone Number</label>
+        <input type="text" placeholder = "0897********">
+
+        <label for="">Email</label>
+        <input type="text" placeholder = "example@gmail.com">
+
+        <label for="">Message</label>
+        <textarea rows="8" cols="80" placeholder = "Message"></textarea>
+
+        <button type = "submit">Confirm</button>
+      </form>
+
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Copyright 2022 | Built by Seta</p>
+    </footer>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src = "script.js"> </script>
+  </body>
+</html>
